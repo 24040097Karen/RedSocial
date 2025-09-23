@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Instagram - Inicio</title>
+<link rel="stylesheet" href="styles/styleinsta.css" />
+</head>
+<body>
+<header>
+  <a class="brand" href="inicio.html">
+    <div class="logo">IG</div>
+    <div style="line-height:1">
+      <div style="font-weight:800">Instagram</div>
+      <div style="font-size:12px;color:var(--muted)">Karen</div>
+    </div>
+  </a>
+  <div class="search"><input placeholder="Buscar" aria-label="Buscar"></div>
+  <nav class="main-nav">
+    <a href="inicio.html">Inicio</a>
+    <a href="explorar.html">Explorar</a>
+    <a href="reels.html">Reels</a>
+    <a href="mensajes.html">Mensajes</a>
+    <a href="perfil.html">Perfil</a>
+  </nav>
+</header>
+
+<main>
+  <div class="stage">
+    <div class="left-col">
+      <div class="profile-card">
+        <div class="profile-top">
+          <div class="avatar"><img src="./image/yo.jpeg" alt="Karen R."></div>
+          <div class="profile-meta">
+            <div class="name">Katmia_14</div>
+            <div class="bio">Artista • Viajera</div>
+          </div>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:8px;">
+          <a href="perfil.html" class="btn" style="background:linear-gradient(90deg,#ff9a9e,#fad0c4);padding:8px 12px">Ver perfil</a>
+          <a href="mensajes.html" class="btn" style="background:#2a2a2a;padding:8px 12px;color:var(--accent2)">Mensajes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pages">
+      <section id="inicio" class="page">
+        <h2>Inicio</h2>
+
+        <article class="post">
+          <div class="head">
+            <div class="avatar" style="width:44px;height:44px"><img src="./image/alma.jpg" alt="Alma"></div>
+            <div>
+              <div class="user">alma.photography</div>
+              <div style="font-size:13px;color:var(--muted)">Madrid · 2 h</div>
+            </div>
+          </div>
+          <div class="media"><img src="./image/viaje_alma.jpg" alt="Foto de viaje"></div>
+          <div class="actions">
+            <div class="left">
+              <button class="btn">❤</button>
+              <button class="btn">💬</button>
+              <button class="btn">📤</button>
+            </div>
+            <div class="right">
+              <button class="btn">👤 Ver perfil</button>
+            </div>
+          </div>
+          <div style="padding:0 12px 14px;">
+            <strong>alma.photography</strong> Amanecer en las montañas — un recuerdo inolvidable.
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="head">
+            <div class="avatar" style="width:44px;height:44px"><img src="./image/marc.jpg" alt="Marc"></div>
+            <div>
+              <div class="user">marc.codes</div>
+              <div style="font-size:13px;color:var(--muted)">Barcelona · Ayer</div>
+            </div>
+          </div>
+          <div class="media"><img src="./image/platillo_marc.jpg" alt="Comida"></div>
+          <div class="actions">
+            <div class="left">
+              <button class="btn">❤</button>
+              <button class="btn">💬</button>
+              <button class="btn">📤</button>
+            </div>
+            <div class="right">
+              <button class="btn">🔖 Guardar</button>
+            </div>
+          </div>
+          <div style="padding:0 12px 14px;">
+            <strong>marc.codes</strong> Nuevo plato inspirado en sabores mediterráneos.
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div class="right-col">
+      <div class="suggestions">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <strong style="font-size:14px">Sugerencias</strong>
+          <small style="color:var(--muted)">Ver todo</small>
+        </div>
+        <div class="suggest-item"><div>luvi.art</div><a href="perfil.html" class="link-label">Seguir</a></div>
+        <div class="suggest-item"><div>foodlover</div><a href="explorar.html" class="link-label">Seguir</a></div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

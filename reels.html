@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Instagram - Reels</title>
+<link rel="stylesheet" href="styles/styleinsta.css" />
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html">
+    <div class="logo">IG</div>
+    <div style="line-height:1">
+      <div style="font-weight:800">Instagram</div>
+      <div style="font-size:12px;color:var(--muted)">Karen</div>
+    </div>
+  </a>
+  <div class="search"><input placeholder="Buscar" aria-label="Buscar"></div>
+  <nav class="main-nav">
+    <a href="index.html">Inicio</a>
+    <a href="explorar.html">Explorar</a>
+    <a href="reels.html">Reels</a>
+    <a href="mensajes.html">Mensajes</a>
+    <a href="perfil.html">Perfil</a>
+  </nav>
+</header>
+
+<main>
+  <div class="stage">
+    <div class="left-col">
+      <div class="profile-card">
+        <div class="profile-top">
+          <div class="avatar"><img src="./image/yo.jpeg" alt="Karen R."></div>
+          <div class="profile-meta">
+            <div class="name">Katmia_14</div>
+            <div class="bio">Artista • Viajera</div>
+          </div>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:8px;">
+          <a href="perfil.html" class="btn" style="background:linear-gradient(90deg,#ff9a9e,#fad0c4);padding:8px 12px">Ver perfil</a>
+          <a href="mensajes.html" class="btn" style="background:#2a2a2a;padding:8px 12px;color:var(--accent2)">Mensajes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pages">
+      <section id="reels" class="page">
+        <h2>Reels</h2>
+        <p style="color:var(--muted);margin-top:6px">Videos cortos recomendados</p>
+        <div class="reels-grid" style="margin-top:12px;">
+          <div class="reel"><img src="./image/reel1.png" alt="Reel 1"></div>
+          <div class="reel"><img src="./image/reel2.jpg" alt="Reel 2"></div>
+          <div class="reel"><img src="./image/reel3.jpg" alt="Reel 3"></div>
+          <div class="reel"><img src="./image/reel4.jpg" alt="Reel 4"></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="right-col">
+      <div class="suggestions">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <strong style="font-size:14px">Sugerencias</strong>
+          <small style="color:var(--muted)">Ver todo</small>
+        </div>
+        <div class="suggest-item"><div>luvi.art</div><a href="perfil.html" class="link-label">Seguir</a></div>
+        <div class="suggest-item"><div>foodlover</div><a href="explorar.html" class="link-label">Seguir</a></div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
